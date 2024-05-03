@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        // Criando alguns livros e videos
         Ebook hp = new Ebook("J.K. Rowling", "Harry Potter e a Pedra Filosofal", 260);
         Ebook got = new Ebook("George R. R. Martin", "A Guerra dos Tronos", 850);
         Ebook duna = new Ebook("Frank Herbert", "Duna", 650);
@@ -14,6 +15,7 @@ public class Main {
         VideoDigital v4 = new VideoDigital("Cristina", "Implementando CRUD", 65);
         VideoDigital v5 = new VideoDigital("Aline", "Modelagem e POO", 45);
 
+        // Mostrando a descrição deles
         hp.descricao();
         got.descricao();
         duna.descricao();
